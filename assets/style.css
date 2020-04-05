@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-brand {
-  background-color: #5aaaa6;
+  background-color: #008cc9;
   font-family: "La Belle Aurore", cursive;
   border: 10px;
   padding: 20px;
@@ -15,7 +15,7 @@ img {
   width: 200px;
 }
 .card-title {
-  color: #5aaaa6;
+  color: #008cc9;
   font-family: "La Belle Aurore", cursive;
 }
 footer {
@@ -32,14 +32,89 @@ footer {
 
 .footerAccentLine {
   height: 5px;
-  background-color: #5aaaa6;
+  background-color: #008cc9;
+}
+
+p {
+  font-family: "Archivo Narrow", italic;
+}
+
+h3 {
+  font-family: "Archivo Narrow", Italic;
+}
+
+.social {
+  padding: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.social a {
+  border: 1px #777777 solid;
+  border-radius: 5px;
+  color: #777777;
+  margin-bottom: 5px;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.social a span {
+  padding-left: 40%;
+}
+
+.social a:hover {
+  padding: 15px 15px;
+  transition: 0.1s ease-out;
+  box-shadow: 0px 0px 10px 5px #cccccc;
+}
+
+.about-me-description {
+  margin: 20px auto;
+  width: 90%;
+}
+
+.about-me-description h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.about-me-description p {
+  line-height: 1.5;
+  padding: 20px 0;
+  width: 90%;
+}
+
+.btn-submit {
+  background-color: #008cc9;
+  color: #ffffff;
+  display: inline-block;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.btn-submit:hover {
+  background-color: #303336;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.25rem;
+  opacity: 0.8;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 398px) {
+  .social {
+    display: block;
+  }
+
+  .social a span {
+    padding-left: 0;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
