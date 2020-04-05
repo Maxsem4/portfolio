@@ -4,7 +4,7 @@ See the deployed website here:
 
 https://maxsem4.github.io/portfolio/
 
-![Image description](./assets/SS1.png)
+![Image description](./assets/img/SS1.png)
 
 ## Project Description
 
