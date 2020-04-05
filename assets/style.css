@@ -1,0 +1,53 @@
+body {
+  background-image: url("img/positive.png");
+  background-color: #f2f2f2;
+}
+
+.navbar-brand {
+  background-color: #5aaaa6;
+  font-family: "La Belle Aurore", cursive;
+  border: 10px;
+  padding: 20px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+.card-title {
+  color: #5aaaa6;
+  font-family: "La Belle Aurore", cursive;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerStyle {
+  background-color: #666666;
+  height: 100px;
+  padding-top: 16px;
+}
+
+.footerAccentLine {
+  height: 5px;
+  background-color: #5aaaa6;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  ...;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  ...;
+}
